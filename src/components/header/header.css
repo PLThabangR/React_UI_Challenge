@@ -1,0 +1,52 @@
+.header{
+    background-image: url("../../assets/furniture.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+height: 100%;
+font-family: sans-serif;
+
+ display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: relative;
+    
+}
+
+.primary-heading{
+    position: absolute;
+    top: 5rem;
+    font-size: 1rem;
+     max-width: 50%;
+      word-spacing: 5px;  
+}
+.main-heading{
+    position: absolute;
+    top: 8rem;
+    font-weight: bolder;
+    font-size: 2rem;
+      max-width: 50%;
+ word-spacing: 5px;  
+}
+
+.third-heading{
+    position: absolute;
+    bottom: 18rem;
+    max-width: 50%;
+    font-size: 1rem;
+    top: 15rem; 
+    word-spacing: 5px;   
+}
+
+
+.button-heading{
+    position: absolute;
+    top: 20rem
+    
+}
+
+
+

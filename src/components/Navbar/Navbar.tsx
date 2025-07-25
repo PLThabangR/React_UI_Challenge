@@ -1,4 +1,6 @@
+import Button from "../button/Button"
 import Text from "../Text/Text"
+import { FaCaretDown } from "react-icons/fa";
 import "./navbar.css"
 
 const Navbar = () => {
@@ -6,16 +8,20 @@ const Navbar = () => {
     
         <nav className="navbar">
             <div className="container">
-            <Text variant='h1' style={{color:'red'}}>Coffee shop</Text>
+           <Text variant='h1' style={{color:'#1A2A37'}}>B Ldsafsaf</Text> 
 
-                <ul>
-                  <li >Home</li>
-                  <li >About</li>
-                  <li >Contact</li>
+                
+                <div>
+                 <ul>
+                 <button className="white-button"> Home<span> </span><FaCaretDown /></button>
+                   <button className="white-button"> Home<span> </span><FaCaretDown /></button>
+                    <button className="white-button"> Home<span> </span><FaCaretDown /></button>
                 </ul>
-                <div className='user' >
-                  <Text variant='span'style={{color:"black"}} >U</Text>
 
+                </div>
+                <div>
+                  <span>icon</span>
+                    <button> Home</button>
                 </div>
             </div>
         </nav>

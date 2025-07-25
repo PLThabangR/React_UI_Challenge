@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body, html {
+  margin: 0;
+
+
+font-family: 'Playfair Display', serif;
+}
+
+
+
+button{
+    padding: 10px 20px;
+    border-radius: 20px;
+   border: none;
+    /* use the background of the main color */
+    background-color: #1A2A37;
+    /* Use the color of the primary color */
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+.white-button{
+    background-color: snow;;
+    color:#1A2A37 ;
+    cursor: pointer;
+}
+
+
+button:hover{
+  
+     opacity: 0.7;
+  
+    cursor: pointer;
+}

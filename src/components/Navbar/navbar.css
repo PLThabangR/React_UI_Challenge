@@ -1,36 +1,18 @@
 nav{
-    margin-top: 5px;
-    color: white;
+    
+    color: black;
     padding: 5px 10px;
-    background: rgb(127, 127, 139);
 }
 
 .container{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 10px auto;
+    /* font here */
+   
 }
 
-ul{
-    display: flex;
-    gap: 10px;
-    list-style: none;
-    margin-left: 50px;
-}
 
-li:hover{
-    color: black;
-    cursor: pointer;
-}
-.user{
-    height: 40px;
-    width: 40px;
-    border-radius: 50px;
-    background: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-}
+
+
+

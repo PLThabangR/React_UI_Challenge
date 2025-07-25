@@ -1,18 +1,36 @@
 import React from 'react'
 import Text from '../Text/Text'
+import './card.css'
 interface CardProps{
-    name:string,
+    title:string,
     image:string,
     description:string,
-    price:number
+    style?:React.CSSProperties
+    
 }
-const Card = ({name,image,description,price} :CardProps) => {
+const Card = ({title,image,description,style} :CardProps) => {
   return (
     <article>
-        <img className="card__img" src={image} alt="" />
-        <Text variant='h1' style={{color:'red'}}>{name}</Text>
+       
+     
+
+        <section className='card_section' style={style}>
+         
+<div className='card_content' >
+        <Text variant='h1' style={{color:'#1A2A37'}}>{title}</Text>
         <Text variant='p'>{description}</Text>
-        <Text variant='span'>{price}</Text>
+        <button>Read more</button>
+        <span>Icon</span>
+      </div>
+      
+ <img className="card_img" src={image} alt="" />
+
+          
+      
+     
+
+        </section>
+
     </article>
   )
 }
