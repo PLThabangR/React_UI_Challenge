@@ -22,7 +22,7 @@ const Home = () => {
     <section> 
     <div className='home-container'>
      
-    <TopBar/>
+       <TopBar/>
         <Navbar/>
         <Header />
         <Card title={title1} description={description1} image={imgaeChair}/>

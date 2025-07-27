@@ -5,10 +5,15 @@
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
+    padding: 2px;
+  
     gap: 10px;
     height: 5vh;
-    border: #1A2A37;
+    border-radius: 20px 20px 1px 1px;
     
+}
+.topBar-container{
+   
 }
 
 @media only screen and (max-width: 760px) {
