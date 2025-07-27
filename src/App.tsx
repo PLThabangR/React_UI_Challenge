@@ -6,24 +6,17 @@ import Home from './Pages/home/Home'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
+    
  
-    <div className='app-container'>
+    <div className='App'>
        
     <Home/>
     
     </div>
    
-    
-       
-       
-       
-       
-       
-    </>
+  
   )
 }
 

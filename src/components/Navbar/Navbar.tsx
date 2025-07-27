@@ -1,6 +1,7 @@
 import Button from "../button/Button"
 import Text from "../Text/Text"
 import { FaCaretDown } from "react-icons/fa";
+import { CiSearch } from "react-icons/ci";
 import "./navbar.css"
 
 const Navbar = () => {
@@ -13,15 +14,16 @@ const Navbar = () => {
                 
                 <div>
                  <ul>
-                 <button className="white-button"> Home<span> </span><FaCaretDown /></button>
-                   <button className="white-button"> Home<span> </span><FaCaretDown /></button>
-                    <button className="white-button"> Home<span> </span><FaCaretDown /></button>
+                   <button className="nav-button">maximus</button>
+                 <button className="nav-button">maximus<span> </span><FaCaretDown /></button>
+                   <button className="nav-button">Maecenas<span> </span><FaCaretDown /></button>
+                    <button className="nav-button">placerat<span> </span><FaCaretDown /></button>
                 </ul>
 
                 </div>
                 <div>
-                  <span>icon</span>
-                    <button> Home</button>
+                  <span><CiSearch /></span>
+                    <button>enim mauris</button>
                 </div>
             </div>
         </nav>

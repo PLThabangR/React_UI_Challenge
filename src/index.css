@@ -2,7 +2,8 @@
 
 body, html {
   margin: 0;
-
+ background-color: #B5D6DD;
+    height: 100%;
 
 font-family: 'Playfair Display', serif;
 }
@@ -22,10 +23,23 @@ button{
     text-align: center;
 }
 
-.white-button{
+.nav-button{
     background-color: snow;;
     color:#1A2A37 ;
     cursor: pointer;
+    font-size: 8px;
+    gap:2rem;
+    
+    
+}
+
+
+@media (max-width: 800px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 

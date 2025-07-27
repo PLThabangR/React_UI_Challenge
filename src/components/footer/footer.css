@@ -1,10 +1,14 @@
 footer{
-    height: 50vh;
+    padding: 5rem;
+   height: 200px;
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    color:white;
+    flex-direction: row;
+    text-align: center;
+    align-items: baseline;
+    justify-content: space-evenly;  
     font-family: sans-serif;
-    background: rgb(87, 87, 168);
+    gap:4rem;
+    background-color: #f4f5f0;
+    margin-bottom: 30px;
 }
+
