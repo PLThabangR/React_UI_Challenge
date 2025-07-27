@@ -7,9 +7,7 @@
     background-repeat: no-repeat;
 height: 100vh;
 width:100% ;
-font-family: sans-serif;
 background-color: snow;
-
  display:flex;
     flex-direction: column;
     justify-content: center;
@@ -29,26 +27,25 @@ background-color: snow;
 }
 .main-heading{
     position: absolute;
-    top: 8rem;
+    top: 6rem;
     font-weight: bolder;
     font-size: 2rem;
-      max-width: 50%;
+      max-width: 60%;
  word-spacing: 5px;  
 }
 
 .third-heading{
     position: absolute;
-    bottom: 18rem;
     max-width: 50%;
     font-size: 1rem;
-    top: 17rem; 
+    top: 14rem; 
     word-spacing: 5px;   
 }
 
 
 .button-heading{
     position: absolute;
-    top: 25rem
+    top: 20rem
     
 }
 
@@ -61,7 +58,6 @@ background-color: snow;
     background-repeat: no-repeat;
     
 height: 75vh;
-font-family: sans-serif;
 background-color: snow;
 
  display:flex;
@@ -103,6 +99,56 @@ background-color: snow;
          background-size: 100%;
      
     }
+
+    .primary-heading{
+    position: absolute;
+    top: 5rem;
+    font-size: 1rem;
+     max-width: 100%;
+      word-spacing: 5px;  
+}
+.main-heading{
+    position: absolute;
+    top: 6rem;
+    font-weight: bolder;
+    font-size: 2rem;
+      max-width: 100%;
+ word-spacing: 5px;  
+}
+
+.third-heading{
+    position: absolute;
+    max-width: 100%;
+    font-size: 1rem;
+    top: 14rem; 
+    word-spacing: 5px;   
+}
+
+.fmain-heading{
+    position: absolute;
+    top: 2rem;
+    font-weight: bolder;
+    font-size: 2rem;
+      max-width: 100%;
+ word-spacing: 5px;  
+}
+.fbutton-heading{
+    position: absolute;
+    top: 22rem
+    
+}
+
+
+.button-heading{
+    position: absolute;
+    top: 20rem
+    
+}
+
+.lower-footer{
+    
+}
+    
    
 
   }

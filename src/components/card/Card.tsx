@@ -1,5 +1,6 @@
 import React from 'react'
 import Text from '../Text/Text'
+
 import './card.css'
 interface CardProps{
     title:string,
@@ -20,7 +21,7 @@ const Card = ({title,image,description,style} :CardProps) => {
         <Text variant='h1' style={{color:'#1A2A37'}}>{title}</Text>
         <Text variant='p'>{description}</Text>
         <button>Read more</button>
-        <span>Icon</span>
+       
       </div>
       
  <img className="card_img" src={image} alt="" />

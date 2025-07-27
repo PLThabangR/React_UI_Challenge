@@ -9,20 +9,21 @@ const Navbar = () => {
     
         <nav className="navbar">
             <div className="container">
-           <Text variant='h1' style={{color:'#1A2A37'}}>B Ldsafsaf</Text> 
-
-                
+           <Text variant='h1' style={{color:'#1A2A37',fontStyle:"italic"}}>B Ldsafsaf</Text> 
                 <div>
                  <ul>
                    <button className="nav-button">maximus</button>
-                 <button className="nav-button">maximus<span> </span><FaCaretDown /></button>
-                   <button className="nav-button">Maecenas<span> </span><FaCaretDown /></button>
-                    <button className="nav-button">placerat<span> </span><FaCaretDown /></button>
+                 <button className="nav-button">maximus<span > <FaCaretDown /></span></button>
+                   <button className="nav-button">Maecenas<span ><FaCaretDown /> </span></button>
+                    <button className="nav-button">placerat<span><FaCaretDown /> </span></button>
                 </ul>
 
                 </div>
-                <div>
-                  <span><CiSearch /></span>
+                <div style={{marginLeft :"20px"}}>
+      
+                <span className="nav-icons">   <Text variant='span' style={{padding:"4px"}}><CiSearch /></Text> </span>
+                  <span className="nav-icons">   <Text variant='span' style={{padding:"4px"}}><CiSearch /></Text> </span>
+                   
                     <button>enim mauris</button>
                 </div>
             </div>

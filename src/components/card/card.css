@@ -11,7 +11,7 @@ article{
     height: 400px;
      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
      transition: 0.3s;
-   
+   background-color: #f4f5f0;
     box-sizing: border-box;
   
     
@@ -19,8 +19,10 @@ article{
 }
 .card_section:hover{
     
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+
+    transform: scale(1.1);
   cursor: pointer;
+
 
 }
 
@@ -36,4 +38,10 @@ article{
     align-items: center;
     text-align: center;
     width: 50%;
+}
+.card-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
 }

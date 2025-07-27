@@ -8,35 +8,30 @@ nav{
     display:flex;
     justify-content: space-between;
     align-items: center;
+    margin: 5px;
+    flex-wrap: wrap;
     /* font here */
    
 }
-ul{
-    gap:9px;
-    display: flex;
-    gap: 5px;
-    margin-right: 6em;
+.nav-icons:hover{
+    
+    cursor:pointer;
+    transform: scale(1.1);
 }
+
 
 
 @media only screen and (max-width: 760px) {
     .container{
         
         flex-direction: column;
+        width: 60%;
+        height: 5%;
         text-align: center;
         flex-wrap: wrap;
         align-items: center;
-         margin: 0px auto;
+         margin: 2px
      
-    }
-    ul{
-        
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-        margin: 10px auto;
-        flex-wrap: wrap;
-       
     }
 
   }
