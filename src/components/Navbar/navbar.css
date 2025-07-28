@@ -1,9 +1,10 @@
+/* Nav start */
 nav{
     
     color: black;
     padding: 5px 10px;
 }
-
+/* Nav container styling */
 .container{
     display:flex;
     justify-content: space-between;
@@ -13,6 +14,7 @@ nav{
     /* font here */
    
 }
+/* Icons hover */
 .nav-icons:hover{
     
     cursor:pointer;
@@ -20,7 +22,7 @@ nav{
 }
 
 
-
+/* Mobile responsiveness */
 @media only screen and (max-width: 760px) {
     .container{
         

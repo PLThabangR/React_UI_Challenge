@@ -19,8 +19,9 @@ const Navbar = () => {
                 </ul>
 
                 </div>
+                {/* inline styling for icons */}
                 <div style={{marginLeft :"20px"}}>
-      
+            {/* Icons and text component */}
                 <span className="nav-icons">   <Text variant='span' style={{padding:"4px"}}><CiSearch /></Text> </span>
                   <span className="nav-icons">   <Text variant='span' style={{padding:"4px"}}><CiSearch /></Text> </span>
                    

@@ -21,10 +21,11 @@ const Home = () => {
   return (
     <section> 
     <div className='home-container'>
-     
+        {/* Components import  */}
        <TopBar/>
         <Navbar/>
         <Header />
+        
         <Card title={title1} description={description1} image={imgaeChair}/>
          <Card title={title2} description={description2} image={imageLight} style={{flexDirection:"row-reverse"}}/>
         <Hfooter/>

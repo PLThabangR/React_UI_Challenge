@@ -1,4 +1,4 @@
-import React from 'react'
+
 import './footer.css'
 import Text from '../Text/Text'
 import { FaTwitter } from "react-icons/fa";
@@ -10,11 +10,14 @@ import { FaLinkedinIn } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer>
+      {/* Main footer container */}
       <div className='footer-container'>
   <div>
+    {/* Uusing text components,text and passing style as props */}
        <Text variant='p'style={{color:'black'}}>Lorem  </Text>
      <Text variant='h1'style={{color:'#1A2A37'}}>We to yotouch digriolics</Text>
       </div>
+       
       <div>
         <Text variant='p'style={{color:'black'}}>Lorem  </Text>
         <Text variant='p'style={{color:'black'}}>consectetur</Text>

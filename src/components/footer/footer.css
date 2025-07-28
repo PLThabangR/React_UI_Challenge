@@ -23,7 +23,7 @@ margin-top: 20px;
      cursor:pointer;
      transform: scale(1.1);
 }
-
+/* Mobile styling  */
 @media only screen and (max-width: 760px) {
     .footer-container{
         display: flex;

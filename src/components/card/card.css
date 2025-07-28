@@ -1,11 +1,13 @@
+/* Bacground color for the component */
 article{
     background-color: snow;
 }
+/* Card section style */
 .card_section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   max-width: 90%;
+   max-width: 90%; 
     width: 700px;
     margin: 0 auto;
     height: 400px;
@@ -17,20 +19,20 @@ article{
     
 
 }
+/* Card hover style */
 .card_section:hover{
-    
-
     transform: scale(1.1);
   cursor: pointer;
 
 
 }
-
+/*  Image styling*/
 .card_img{
     width:50%;
    height: 400px;  
     object-fit: cover;
 }
+/* Content style */
 .card_content{
     display: flex;
     flex-direction: column;
@@ -39,6 +41,7 @@ article{
     text-align: center;
     width: 50%;
 }
+/* Item setting */
 .card-items{
     display: flex;
     justify-content: space-between;

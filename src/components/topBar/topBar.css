@@ -1,5 +1,5 @@
 
-
+/* Topbar styling */
 .topBar-container{
     background-color:#1A2A37;
     max-width: 100%;
@@ -8,6 +8,7 @@
     border-radius: 20px 20px 1px 1px;
     
 }
+/* Topbar content */
 .topBar-content {
   display: flex;
     flex-direction: row;
@@ -16,11 +17,13 @@
     margin-right: 20px;
     gap: 10px;  
 }
+/* icons hover */
 .topBar-icon:hover{
   color: #1DA1F2;
      cursor:pointer;
      transform: scale(1.1);
 }
+/* Mobile view  */
 @media only screen and (max-width: 760px) {
     .topBar-container {
         display: none;

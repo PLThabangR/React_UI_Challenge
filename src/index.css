@@ -1,13 +1,15 @@
+/* import fonts from google */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+/*reseting default margin and apply background for whole page*/
 body, html {
   margin: 0 auto;
- background-color: #B5D6DD;
+ background-color: #B5D6DD; 
 font-family: 'Playfair Display', serif;
 }
 
 
-
+/*Defualt button settings*/
 button{
     padding: 10px 20px;
     border-radius: 20px;
@@ -20,7 +22,7 @@ button{
     cursor: pointer;
     text-align: center;
 }
-
+/*default navbar button setting*/
 .nav-button{
     background-color: snow;
     color:#1A2A37 ;
@@ -33,9 +35,8 @@ button{
 
 
 
-
+/*seting hover effect for the button*/ 
 button:hover{
-  
      opacity: 0.5;
     background-color: #1A2A37;
     color: white;
@@ -43,23 +44,21 @@ button:hover{
     
 }
 
-
+/*hover eeffect for the nav boutton*/
 .nav-icons:hover{
     
     cursor:pointer;
     transform: scale(1.1);
 }
 
-
-
+/* Mobile view css for responsive */
 @media only screen and (max-width: 760px) {
    .nav-icons:hover{
     cursor:pointer;
     transform: scale(1.1);
 }
-
+/*hover style for mobile*/
 button:hover{
-  
      opacity: 0.5;
     background-color: #1A2A37;
     color: white;
