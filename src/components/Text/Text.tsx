@@ -1,5 +1,5 @@
 
-import './Text.css'
+import './text.css'
 
 // Interface for text
 interface Props{
