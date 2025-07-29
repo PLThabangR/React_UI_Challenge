@@ -1,4 +1,4 @@
-import Button from "../button/Button"
+
 import Text from "../Text/Text"
 import { FaCaretDown } from "react-icons/fa";
 import { CiSearch } from "react-icons/ci";
